@@ -1,0 +1,26 @@
+.main-navigation {
+
+  &__item {
+    margin-left: 30px;
+  }
+
+  &__link {
+    font-family: $font-family--Open-sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    text-decoration: none;
+
+    &:hover {
+      border: 2px solid #ffffff;
+    }
+
+    &:focus {
+      outline: none;
+      color: #6edb92;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.main-header {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 77px;
+  background: #615849 url("../img/header-bg.jpg") 50% no-repeat;
+  background-size: cover;
+
+  &__title {
+    margin: 0;
+    font-family: $font-family--Source-sans;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    margin-top: 44px;
+    margin-bottom: 220px;
+    font-family: $font-family--Open-sans;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    color: #ffffff;
+  }
+
+  &__navigation {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 230px;
+    justify-content: space-between;
+  }
+}

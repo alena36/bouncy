@@ -1,0 +1,14 @@
+.portfolio-cta {
+  background: #0a0a0a url("../../img/portfolio-bg.jpg") 50% no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+
+  &__title {
+    font-family: $font-family--Open-sans;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    line-height: 25px;
+  }
+}

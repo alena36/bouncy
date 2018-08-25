@@ -1,0 +1,31 @@
+.slider-team {
+  position: relative;
+  width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  &--right {
+    text-align: right;
+    width: 400px;
+  }
+
+  &__text {
+    font-size: 14px;
+    text-align: right;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+  }
+
+  &__title {
+  font-family: $font-family--Open-sans;
+    font-size: $font-size--section-title;
+  }
+
+  &__subtitle {
+    font-family: $font-family--Source-sans;
+    font-size: $font-size--section-subtitle;
+    text-transform: uppercase;
+  }
+
+}

@@ -1,0 +1,17 @@
+.portfolio {
+  background-color: #f3f3f3;
+  padding-top: 88px;
+  padding-bottom: 103px;
+
+  &__container {
+    width: 1110px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__menu {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+}

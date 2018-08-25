@@ -1,0 +1,43 @@
+.slider {
+  &__item {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  &__right {
+    text-align: left;
+  }
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-dots {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  li {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  button {
+    background: no-repeat;
+    border: 1px solid #19bd9a;
+    border-radius: 50%;
+    font-size: 0;
+    height: 16px;
+    width: 10px;
+    display: block;
+  }
+
+  .slick-active button {
+    background: #19bd9a;
+  }
+}
