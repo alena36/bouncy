@@ -11,20 +11,20 @@ body {
   margin: 0 auto;
 }
 
+.grid-wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
 .main-logo {
   display: block;
   width: 113px;
   height: 20px;
+  margin: 0 auto;
 
   &:hover {
     opacity: 0.6;
   }
-
-}
-
-.grid-wrapper {
-  width: 1110px;
-  margin: 0 auto;
 }
 
 .list {
